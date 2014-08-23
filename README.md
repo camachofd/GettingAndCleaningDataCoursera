@@ -13,6 +13,7 @@ It will be a 180 rows X 68 columns size data frame.
 #To run the script:
 
 > source("run_analysis.R")
+
 > tidy_dataframe <- run_analysis()
 
 #For further reading the result (i.e., in other session):
