@@ -33,13 +33,20 @@ It will be a 180 rows X 68 columns size data frame.
 * For each pair subject/activity, it is necessary subset the corresponding rows and compute the mean for each column. It can be done using a couple of nested loops and applying the _colMeas()_ funtion to the rows of interest. Then replace the current row in __tidy__ data frame (rows 3 to 68) with the computed values (also replace the _subject number_ in column 1 and the _activity name_ in column 2)
 * Finally, write the __tidy__ data set to a file (___"TidyDataset.txt"___), adding columns names
 * And return it
- 
+
+For a complete list of columns you can see the document __CodeBook.md__ in this repository
+
+## Related Links
+
 You can take a look to the script at
 
 https://github.com/camachofd/GettingAndCleaningDataCoursera/blob/master/run_analysis.R
 
-And the resulting output file at
+The resulting output file at
 
 https://github.com/camachofd/GettingAndCleaningDataCoursera/blob/master/TidyDataset.txt
 
+And the CodeBook at
+
+https://github.com/camachofd/GettingAndCleaningDataCoursera/blob/master/CodeBook.md
 
