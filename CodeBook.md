@@ -15,7 +15,8 @@ Columns __3__ to __68__ are the average (for all the observation for each pair S
 You can see a more detailed explanation about the original functions in the file __"UCI HAR Dataset/features_info.txt"__
 
 ## NOTES:
-* Selected features are those that include either _-mean()_ or _-std()_ in their names.
+* The number of rows is due to 30 Subjects X 6 Activities = 180 pairs Subject/Activity
+* Selected features are those that include either _-mean()_ or _-std()_ in their original names.
 * This tidy dataset has been named _wide-tidy dataset_ in some forums related with this project assignment.
 
 ## Table 1
