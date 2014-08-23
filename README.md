@@ -1,12 +1,12 @@
 # Script "run_analysis.R"
 
-This is the only script required to perform the assingment 'Getting and Cleaning Data Course Project'.
+This is the __only__ script required to perform the assingment _'Getting and Cleaning Data Course Project'_.
 
-You MUST have the unzipped folder "UCI HAR Dataset" in your working directory to succesfully run it.
+You MUST have the unzipped folder __"UCI HAR Dataset"__ in your working directory to succesfully run it.
 
 This folder has all required input data files.
 
-The generated output file "TidyDataset.txt" will be saved in your working directory.
+The generated output file __"TidyDataset.txt"__ will be saved in your working directory.
 
 It will be a 180 rows X 68 columns size data frame.
  
