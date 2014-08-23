@@ -11,12 +11,12 @@ Column __1__ is the Subject number, which is in range 1 to 30
 Column __2__ is the Activity name, that can be one of the six values                                                   
 WALKING, WALKING\_UPSTAIRS, WALKING\_DOWNSTAIRS ,SITTING, STANDING, LAYING
 
-Columns __3__ to __68__ are the average (for all the observation for each pair Subject/Activity) of the selected features (see __Table 1__ below for their names and the original features names). So, the units are the same as original units.
+Columns __3__ to __68__ are the average (for all the observations for each pair Subject/Activity) of the selected features (see __Table 1__ below for their names and the original features names). So, the units are the same as original units.
 You can see a more detailed explanation about the original functions in the file __"UCI HAR Dataset/features_info.txt"__
 
 ## NOTES:
-* The number of rows is due to 30 Subjects X 6 Activities = 180 pairs Subject/Activity
-* Selected features are those that include either _-mean()_ or _-std()_ in their original names.
+* The number of rows is due to 30 Subjects X 6 Activities = 180 Subject/Activity pairs.
+* Selected features are only those that include either _-mean()_ or _-std()_ in their original names.
 * This tidy dataset has been named _wide-tidy dataset_ in some forums related with this project assignment.
 
 ## Table 1
