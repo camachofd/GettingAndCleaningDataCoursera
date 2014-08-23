@@ -1,5 +1,15 @@
 ##CodeBook
+This CodeBook lists all the variables (columns) used in the final __tidy__ dataset
 
+The origin of data are located in the unzipped folder _UCI HAR Dataset_ provided by Coursera at
+https://d396qusza40orc.cloudfrontnet/getdata/projectfiles/UCI HAR Dataset.zip
+After running the srcipt __"run_analysis.R"__, we'll get the __tidy__ dataset
+It is a 180 rows X 68 columns data frame
+Column 1 is the Subject number, which in in range 1 to 30
+Column 2 is the Activity name, that can be one of the six values 
+WALKING, WALKING\_UPSTAIRS, WALKING\_DOWNSTAIRS ,SITTING, STANDING, LAYING
+Columns 3 to 68 are the average (for al the observation for each pair Subject/Activity) of the selected features (see the table below for its names and the original features names). So, the units are the same as original units
+You can see a more detailed explanation about the original function in the file __"UCI HAR Dataset/features_info.txt"
 Column Number|Original feature name|Final feature (tidy) name
 -------------|---------------------|-------------------------
 "1"|N/A|"Subject"
