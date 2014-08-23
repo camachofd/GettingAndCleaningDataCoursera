@@ -9,7 +9,8 @@ Column 1 is the Subject number, which in in range 1 to 30
 Column 2 is the Activity name, that can be one of the six values 
 WALKING, WALKING\_UPSTAIRS, WALKING\_DOWNSTAIRS ,SITTING, STANDING, LAYING
 Columns 3 to 68 are the average (for al the observation for each pair Subject/Activity) of the selected features (see the table below for its names and the original features names). So, the units are the same as original units
-You can see a more detailed explanation about the original function in the file __"UCI HAR Dataset/features_info.txt"
+You can see a more detailed explanation about the original function in the file __"UCI HAR Dataset/features_info.txt"__
+
 Column Number|Original feature name|Final feature (tidy) name
 -------------|---------------------|-------------------------
 "1"|N/A|"Subject"
