@@ -4,16 +4,19 @@ This CodeBook lists all the variables (columns) used in the final __tidy__ datas
 The origin of data are located in the unzipped folder __UCI HAR Dataset__ provided by Coursera at
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-After running the srcipt __"run_analysis.R"__, we'll get the __tidy__ dataset.It is a 180 rows X 68 columns data frame
+After running the sript __"run_analysis.R"__, we'll get the __tidy__ dataset.It is a 180 rows X 68 columns data frame
 
 Column 1 is the Subject number, which in in range 1 to 30
 
 Column 2 is the Activity name, that can be one of the six values                                                   
 WALKING, WALKING\_UPSTAIRS, WALKING\_DOWNSTAIRS ,SITTING, STANDING, LAYING
 
-Columns 3 to 68 are the average (for al the observation for each pair Subject/Activity) of the selected features (see the table below for its names and the original features names). So, the units are the same as original units
-You can see a more detailed explanation about the original function in the file __"UCI HAR Dataset/features_info.txt"__
+Columns 3 to 68 are the average (for all the observation for each pair Subject/Activity) of the selected features (see the table below for its names and the original features names). So, the units are the same as original units.
+You can see a more detailed explanation about the original functions in the file __"UCI HAR Dataset/features_info.txt"__
 
+NOTE: This tidy dataset has been named "wide-tidy dataset" in some forums related with the assignment
+
+# Columns 3 to 68 tabble
 Column Number|Original feature name|Final feature (tidy) name
 -------------|---------------------|-------------------------
 "1"|N/A|"Subject"
