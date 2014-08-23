@@ -1,7 +1,9 @@
+##CodeBook
+
 Column Number|Original feature name|Final feature (tidy) name
 -------------|---------------------|-------------------------
-"1"|"Subject"|"Subject"
-"2"|"Activity"|"Activity"
+"1"|N/A|"Subject"
+"2"|N/A|"Activity"
 "3"|"tBodyAcc-mean()-X"|"TimeBodyAccMeanX"
 "4"|"tBodyAcc-mean()-Y"|"TimeBodyAccMeanY"
 "5"|"tBodyAcc-mean()-Z"|"TimeBodyAccMeanZ"
