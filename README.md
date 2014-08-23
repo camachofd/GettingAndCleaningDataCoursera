@@ -34,9 +34,12 @@ It will be a 180 rows X 68 columns size data frame.
 * Finally, write the __tidy__ data set to a file (___"TidyDataset.txt"___), adding columns names
 * And return it
  
-You can take a look to the script at https://github.com/camachofd/GettingAndCleaningDataCoursera/blob/master/run_analysis.R
+You can take a look to the script at
 
-And the resulting output files at
+https://github.com/camachofd/GettingAndCleaningDataCoursera/blob/master/run_analysis.R
+
+And the resulting output file at
+
 https://github.com/camachofd/GettingAndCleaningDataCoursera/blob/master/TidyDataset.txt
 
 
