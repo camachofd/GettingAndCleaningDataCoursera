@@ -16,7 +16,7 @@ You can see a more detailed explanation about the original functions in the file
 
 ## NOTES:
 * Selected features are those that include either _-mean()_ or _-std()_ in their names.
-* This tidy dataset has been named "wide-tidy dataset" in some forums related with the assignment.
+* This tidy dataset has been named _wide-tidy dataset_ in some forums related with this project assignment.
 
 ## Table 1
 Column Number|Original feature name|Final feature (tidy) name
