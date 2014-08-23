@@ -96,7 +96,7 @@ run_analysis <- function()
  ## For each pair subject/activity, it is necessary subset the corresponding rows and compute
  ## the mean for each column. It can be done using a couple of nested loops and applying
  ## the colMeans() function to the rows of interest. Then replace the current row in tidy data
- ## frame with the required values:
+ ## frame with the computed values:
   
  row <- 1			## Initial row
  for (subject in 1:30)		## For each subject
