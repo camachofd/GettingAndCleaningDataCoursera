@@ -6,6 +6,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 After running the srcipt __"run_analysis.R"__, we'll get the __tidy__ dataset
 It is a 180 rows X 68 columns data frame
+
 Column 1 is the Subject number, which in in range 1 to 30
 Column 2 is the Activity name, that can be one of the six values 
 WALKING, WALKING\_UPSTAIRS, WALKING\_DOWNSTAIRS ,SITTING, STANDING, LAYING
