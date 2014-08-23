@@ -22,8 +22,8 @@ It will be a 180 rows X 68 columns size data frame.
 
 ## How the script works:
 
-* Read training and test datasets from corresponding files
-* Merge both sets binding their rows
-* Set descriptive column names for activity and subject vectors
-* Read the features names and subset those that correspond to 'mean' and 'standard deviation' function
-* 
+* Read the three training and the three test datasets from corresponding files
+* Merge both sets binding their rows. Now we have three merged datasets
+* Set descriptive column names for _activity_ and _subject_ vectors
+* Read the features names and subset those that correspond to 'mean' and 'standard deviation' functions
+* Rename the functions for _more tidy_ names
