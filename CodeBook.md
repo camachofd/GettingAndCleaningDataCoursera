@@ -1,8 +1,9 @@
 ##CodeBook
 This CodeBook lists all the variables (columns) used in the final __tidy__ dataset
 
-The origin of data are located in the unzipped folder _UCI HAR Dataset_ provided by Coursera at
+The origin of data are located in the unzipped folder __UCI HAR Dataset__ provided by Coursera at
 https://d396qusza40orc.cloudfrontnet/getdata/projectfiles/UCI HAR Dataset.zip
+
 After running the srcipt __"run_analysis.R"__, we'll get the __tidy__ dataset
 It is a 180 rows X 68 columns data frame
 Column 1 is the Subject number, which in in range 1 to 30
