@@ -30,9 +30,9 @@ It will be a 180 rows X 68 columns size data frame.
 * Create an unique __big__ data frame binding columns _subject_, _activity_ and _X\_all_ (the 66 features data frame)
 * Create and size the __tidy__ data frame by subsetting only 180 rows from __big__ data frame (30 subject X 6 activities)
 * Also need the activity names to replace activity numbers 1....6 for WALKING....STANDING
-* For each pair subject/activity, it is necessary subset the corresponding rows and compute the mean for each column. It can be done using a couple of nested loops and applying the _colMeas()_ funtion to the rows of interest. Then replace the current row in __tidy__ data frame (rows 3 to 68) with the required values (also replace the _subject number_ in column 1 and the _activity name_ in column 2)
-* Finally, write the _tidy_ data set to a file (___"TidyDataset.txt"___), adding columns names
+* For each pair subject/activity, it is necessary subset the corresponding rows and compute the mean for each column. It can be done using a couple of nested loops and applying the _colMeas()_ funtion to the rows of interest. Then replace the current row in __tidy__ data frame (rows 3 to 68) with the computed values (also replace the _subject number_ in column 1 and the _activity name_ in column 2)
+* Finally, write the __tidy__ data set to a file (___"TidyDataset.txt"___), adding columns names
 * And return it
  
-
+You can take a look to the script at https://github.com/camachofd/GettingAndCleaningDataCoursera -automatic
 
